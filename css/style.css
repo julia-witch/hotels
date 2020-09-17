@@ -1,3 +1,9 @@
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
 #Capa_1 {
     width: 22px;
     height: 22px;
@@ -5,4 +11,9 @@
 .benefits-cards-icon {
     width: auto;
     height: 59px;
+}
+
+.special-offer-image {
+    width: 595px;
+    height: 540px;
 }
