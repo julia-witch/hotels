@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad157c72-303e-4042-b8c7-04c1dbf40484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Hotels.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hotels.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/MullerBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MullerBold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/MullerBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MullerBold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/MullerLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MullerLight.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/MullerLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MullerLight.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/MullerMedium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MullerMedium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/MullerMedium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MullerMedium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/MullerRegular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MullerRegular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/MullerRegular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/MullerRegular.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +42,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hUjDS6yHyii2wiahtQ12lURByD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -83,7 +76,7 @@
       <workItem from="1600150429531" duration="2737000" />
       <workItem from="1600176782121" duration="169000" />
       <workItem from="1600251396446" duration="163000" />
-      <workItem from="1600323990125" duration="4145000" />
+      <workItem from="1600323990125" duration="4627000" />
     </task>
     <servers />
   </component>
@@ -101,6 +94,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="529" y="293" key="IDE.errors.dialog" timestamp="1600149290338">
