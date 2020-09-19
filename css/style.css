@@ -1,5 +1,24 @@
+:root {
+    --white: #fff;
+    --body-bkgrnd: #f1f1f1;
+}
+
 * {
     font-family: 'Muller', sans-serif;
+
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: var(--body-bkgrnd);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
 }
 
 .container {
@@ -7,16 +26,126 @@
     max-width: 1170px;
 }
 
-#Capa_1 {
-    width: 22px;
-    height: 22px;
-}
-.benefits-cards-icon {
-    width: auto;
-    height: 59px;
-}
-
 .special-offer-image {
     width: 595px;
     height: 540px;
+}
+
+.personal {
+    width: 144px;
+    height: auto;
+}
+
+.personal-arrow {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/header/arrow-header.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+#Capa_1 {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url("/img/header/search.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.services-cards-item {
+    width: 572px;
+    height: 325px;
+    border-radius: 12px;
+    background-color: var(--white);
+}
+.services-cards-img {
+    display: block;
+    width: 572px;
+    height: 165px;
+}
+
+.img-one {
+    background-image: url("../img/services/services-1.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.img-two {
+    background-image: url("../img/services/services-2.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.img-free {
+    background-image: url("../img/services/services-3.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.img-four {
+    background-image: url("../img/services/services-4.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.benefits-cards-item {
+    width: 275px;
+    height: 275px;
+    border-radius: 12px;
+    background-color: var(--white);
+}
+
+.benefits-cards-icon {
+    display: block;
+    width: 65px;
+    height: 65px;
+}
+
+.one-icon {
+    background-image: url("../img/benefits-icons/bathtub.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.two-icon {
+    background-image: url("../img/benefits-icons/hanger.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.free-icon {
+    background-image: url("../img/benefits-icons/heating.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.four-icon {
+    background-image: url("../img/benefits-icons/hotel-key.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.five-icon {
+    background-image: url("../img/benefits-icons/parking.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.six-icon {
+    background-image: url("../img/benefits-icons/reception.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.seven-icon {
+    background-image: url("../img/benefits-icons/security-box.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.eight-icon {
+    background-image: url("../img/benefits-icons/swimming-pool.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
 }

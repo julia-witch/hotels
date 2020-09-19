@@ -9,32 +9,30 @@
     <body>
     <div class="container">
         <header class="header">
+            <h1 style="width:0;height:0;font-size:0">Lagoon - сеть отелей для хорошего отдыха</h1>
             <div class="contacts">
                 <a href="#" class="img-logo" ><img src="img/header/logo.png" alt="Logo Lagoona"></a>
-                <p class="phone">+7 495 322 54 48 34</p>
-                <a href="#" class="personal-arrow"><img src="img/header/arrow-header.png" alt="arrow"></a>
-                <p class="personal-intro">Личный кабинет</p>
+                <a href="#" class="phone">+7 495 322 54 48 34</a>
+                <span class="personal-arrow"></span>
+                <div class="personal">
+                    <p class="personal-intro">Личный кабинет</p>
+                </div>
             </div>
             <div class="menu">
                 <nav class="menu-items">
                     <ul class="menu-items-list">
-                        <li>О нас</li>
-                        <li>Услуги</li>
-                        <li>Преимущества</li>
-                        <li>Размещение</li>
-                        <li>Блог</li>
-                        <li>Контакты</li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#benefits">Преимущества</a></li>
+                        <li><a href="#placement">Размещение</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
-                <input type="text" name="search" value="Поиск">
-                <svg
-                    id="Capa_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512">
-                    <path d="M508.87,478.71,360.14,330a201.64,201.64,0,0,0,45.19-127.31C405.33,90.92,314.42,0,202.67,0S0,90.92,0,202.67,90.92,405.33,202.67,405.33A201.64,201.64,0,0,0,330,360.14L478.71,508.87a10.65,10.65,0,0,0,15.08,0l15.09-15.08A10.66,10.66,0,0,0,508.87,478.71Zm-306.2-116c-88.23,0-160-71.77-160-160s71.77-160,160-160,160,71.77,160,160S290.9,362.67,202.67,362.67Z"
-                          transform="translate(0 0)"
-                    />
-                </svg>
+                <div class="search">
+                    <input type="text" name="search-field" value="Поиск" class="search-field">
+                    <span id="Capa_1"></span>
+                </div>
             </div>
         </header>
         <main>
@@ -54,13 +52,13 @@
                 <h2 class="lead">Спецпредложение</h2>
                 <div class="special-offer-text">
                     <img src="img/special-offer/special-offer.jpg" alt="special offer image" class="image special-offer-image">
-                    <h1>Номера категории люкс</h1>
+                    <p class="special-offer-lux">Номера категории люкс</p>
                     <p class="special-offer-sum">от 5 000 р</p>
                     <a href="" class="detail">Подробнее ></a>
                 </div>
             </section>
-            <section class="about">
-                <h2 class="section-lead">О нас</h2>
+            <section id="about">
+                <h2 class="section-lead" >О нас</h2>
                 <p class="about-text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой
                     процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
                     Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности
@@ -69,71 +67,72 @@
                     существенных финансовых и административных условий.
                 </p>
             </section>
-            <section class="services">
+            <section id="services">
                 <h2 class="section-lead">Услуги</h2>
                 <ul class="services-cards">
                     <li class="services-cards-item">
-                        <img src="img/services/services-1.jpg" alt="exclusive image">
+                        <span class="services-cards-img img-one"></span>
                         <h3 class="cards-item-lead">Эксклюзивное обслуживание ></h3>
                         <p class="cards-item-description">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
                     </li>
                     <li class="services-cards-item">
-                        <img src="img/services/services-2.jpg" alt="rent image">
+                        <span class="services-cards-img img-two"></span>
                         <h3 class="cards-item-lead">Аренда банкетных залов ></h3>
                         <p class="cards-item-description">Равным образом постоянный количественный рост и сфера нашей активности</p>
                     </li>
                     <li class="services-cards-item">
-                        <img src="img/services/services-3.jpg" alt="pool image">
+                        <span class="services-cards-img img-free"></span>
                         <h3 class="cards-item-lead">Сауны, бассейны, бани, фитнес-залы ></h3>
                         <p class="cards-item-description">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                     </li>
-                    <li class="services-cards-item"><img src="img/services/services-3.jpg" alt="parking image">
+                    <li class="services-cards-item">
+                        <span class="services-cards-img img-four"></span>
                         <h3 class="cards-item-lead">Охраняемые автомобильные стоянки ></h3>
                         <p class="cards-item-description">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p></li>
                 </ul>
             </section>
-            <section class="benefits">
+            <section id="benefits">
                 <h2 class="section-lead">Преимущества</h2>
                 <ul class="benefits-cards">
                     <li class="benefits-cards-item">
-                        <img class="benefits-cards-icon" src="img/benefits-icons/bathtub.svg" alt="bath icon" aria-label="presentation">
+                        <span class="benefits-cards-icon one-icon"></span>
                         <p class="benefits-cards-description">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
                     </li>
                     <li class="benefits-cards-item">
-                        <img class="benefits-cards-icon" src="img/benefits-icons/hanger.svg" alt="hanger icon" aria-label="presentation">
+                        <span class="benefits-cards-icon two-icon"></span>
                         <p class="benefits-cards-description">Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
                     </li>
                     <li class="benefits-cards-item">
-                        <img class="benefits-cards-icon" src="img/benefits-icons/heating.svg" alt="heating icon" aria-label="presentation">
+                        <span class="benefits-cards-icon free-icon"></span>
                         <p class="benefits-cards-description">Таким образом реализация плановых заданий играет важную роль для понимания</p>
                     </li>
                     <li class="benefits-cards-item">
-                        <img class="benefits-cards-icon" src="img/benefits-icons/hotel-key.svg" alt="key icon" aria-label="presentation">
+                        <span class="benefits-cards-icon four-icon"></span>
                         <p class="benefits-cards-description">Повседневная практика показывает, что сложившаяся структура организации</p>
                     </li>
                     <li class="benefits-cards-item">
-                        <img class="benefits-cards-icon" src="img/benefits-icons/parking.svg" alt="parking icon" aria-label="presentation">
+                        <span class="benefits-cards-icon five-icon"></span>
                         <p class="benefits-cards-description">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
                     </li>
                     <li class="benefits-cards-item">
-                        <img class="benefits-cards-icon" src="img/benefits-icons/reception.svg" alt="reception icon" aria-label="presentation">
+                        <span class="benefits-cards-icon six-icon"></span>
                         <p class="benefits-cards-description">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса </p>
                     </li>
                     <li class="benefits-cards-item">
-                        <img class="benefits-cards-icon" src="img/benefits-icons/security-box.svg" alt="security-box icon" aria-label="presentation">
+                        <span class="benefits-cards-icon seven-icon"></span>
                         <p class="benefits-cards-description">Повседневная практика показывает, что дальнейшее развитие различных форм</p>
                     </li>
                     <li class="benefits-cards-item">
-                        <img class="benefits-cards-icon" src="img/benefits-icons/swimming-pool.svg" alt="swimming-pool icon" aria-label="presentation">
+                        <span class="benefits-cards-icon eight-icon"></span>
                         <p class="benefits-cards-description">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
                     </li>
                 </ul>
             </section>
-            <section class="placement">
+            <section id="placement">
                 <h2 class="section-lead">Размещение</h2>
                 <ul class="placement-list">
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-1.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-1.jpg" alt="hotel room">
                         <div class="rate">
                             <img src="img/placement/i-star.png" alt="Starz">
                             <img src="img/placement/i-star.png" alt="">
@@ -149,7 +148,7 @@
                         <button>Номера</button>
                     </li>
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-2.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-2.jpg" alt="hotel room">
                         <div class="rate">
                             <img src="img/placement/i-star.png" alt="Starz">
                             <img src="img/placement/i-star.png" alt="">
@@ -165,7 +164,7 @@
                         <button>Номера</button>
                     </li>
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-3.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-3.jpg" alt="hotel room">
                         <div class="rate">
                             <img src="img/placement/i-star.png" alt="Starz">
                             <img src="img/placement/i-star.png" alt="">
@@ -181,7 +180,7 @@
                         <button>Номера</button>
                     </li>
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-4.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-4.jpg" alt="hotel room">
                         <div class="rate">
                             <img src="img/placement/i-star.png" alt="Starz">
                             <img src="img/placement/i-star.png" alt="">
@@ -197,7 +196,7 @@
                         <button>Номера</button>
                     </li>
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-5.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-5.jpg" alt="hotel room">
                         <div class="rate">
                             <img src="img/placement/i-star.png" alt="Starz">
                             <img src="img/placement/i-star.png" alt="">
@@ -213,7 +212,7 @@
                         <button>Номера</button>
                     </li>
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-6.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-6.jpg" alt="hotel room">
                         <div class="rate">
                             <img src="img/placement/i-star.png" alt="Starz">
                             <img src="img/placement/i-star.png" alt="">
@@ -229,7 +228,7 @@
                         <button>Номера</button>
                     </li>
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-7.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-7.jpg" alt="hotel room">
                         <div class="rate">
                             <img src="img/placement/i-star.png" alt="Starz">
                             <img src="img/placement/i-star.png" alt="">
@@ -245,7 +244,7 @@
                         <button>Номера</button>
                     </li>
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-8.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-8.jpg" alt="hotel room">
                         <div class="rate">
                             <img src="img/placement/i-star.png" alt="Starz">
                             <img src="img/placement/i-star.png" alt="">
@@ -261,7 +260,7 @@
                         <button>Номера</button>
                     </li>
                     <li class="placement-list-item">
-                        <img class="img img-placement-image" src="img/placement/placement-all.jpg" alt="" aria-label="presentation">
+                        <img class="img img-placement-image" src="img/placement/placement-all.jpg" alt="hotel room's choice">
                         <a href="#" class="placement-list-link">Посмотреть все варианты</a>
                     </li>
                 </ul>
